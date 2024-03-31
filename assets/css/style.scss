@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-#header_wrap .outer {
+#header_wrap {
+    all: unset;
+}
+#header_wrap {
     background: #24248f;
 }
